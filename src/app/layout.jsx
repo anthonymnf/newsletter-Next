@@ -2,6 +2,7 @@ import Link from "next/link";
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import { Toaster } from "@/components/ui/toaster";
+import Footer from "@/components/footer";
 
 const poppins = Poppins({ weight: ["400", "700"], subsets: ["latin"] });
 
@@ -40,10 +41,7 @@ export default function RootLayout({ children }) {
           </header>
 
           {children}
-
-          <footer className="p-10">
-            <p>Feito com Next.js 13.4</p>
-          </footer>
+          <Footer />
           <Toaster />
         </div>
       </body>
