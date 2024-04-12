@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Newsletter em Next.js
 
-## Getting Started
+Bem-vindo ao projeto da Newsletter em Next.js! 📩✨ Este é um projeto simples e poderoso para criar uma Newsletter com um formulário de cadastro e uma página para acompanhar os inscritos. Vamos mergulhar nos detalhes!
 
-First, run the development server:
+## Funcionalidades do Projeto
+- **Formulário de Cadastro:** Cadastre-se para receber as últimas novidades diretamente na sua caixa de entrada.
+- **Página de Inscritos:** Acompanhe todos os inscritos na Newsletter.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias Utilizadas
+- **Next.js:** Para uma experiência de desenvolvimento rápida e eficiente.
+- **Javascript:** A linguagem que dá vida às nossas interações.
+- **TailwindCSS:** O estilo moderno e responsivo que faz toda a diferença.
+- **Shadn/ui:** Adicionando aquele toque de magia aos nossos componentes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como Usar
+1. Clone este repositório para o seu ambiente local.
+2. Instale as dependências utilizando `npm install`.
+3. Execute o projeto com `npm run dev`.
+4. Acesse `http://localhost:3000` para ver a aplicação em ação.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Contribuindo
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma issue para relatar problemas ou propor novas funcionalidades. Se preferir, envie um pull request com suas melhorias.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Links
+- **Likedin:** [Newsletter-Next](https://www.linkedin.com/in/anthony-matheus/)
+- **Deploy:** [Newsletter Next Deployment](https://newsletter-next-zeta.vercel.app/)
 
-## Learn More
+## Futuro
+No futuro, planejamos integrar um banco de dados para exibir informações reais dos inscritos, tornando a experiência ainda mais personalizada e envolvente. Fiquem ligados para mais atualizações emocionantes!
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
