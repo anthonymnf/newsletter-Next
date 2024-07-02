@@ -1,4 +1,5 @@
 import { data } from "../../data/users.js";
+import dayjs from "dayjs";
 const fs = require("node:fs");
 
 export async function POST(request) {
@@ -6,6 +7,7 @@ export async function POST(request) {
   const newData = {
     id: data.length + 1,
     user: email,
+    data_de_criacao: dayjs().locale("pt-br").format("DD/MM/YYYY"),
   };
 
   // Adicionar o novo dado ao array
