@@ -3,12 +3,24 @@
 import { useState } from "react";
 import { useToast } from "./ui/use-toast";
 
+async function enviarDados(email) {
+  const response = await fetch("/api/sub", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ data: email }), // Certifique-se de enviar o JSON correto
+  });
+  console.log("Passou aq");
+}
+
 export default function SubscribeForm() {
   const [email, setEmail] = useState("");
   const { toast } = useToast();
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Corrigido para evitar o comportamento padrão do formulário
+    await enviarDados(email); // Aguarda o envio dos dados
 
     setEmail("");
     toast({
